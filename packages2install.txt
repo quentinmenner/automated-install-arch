@@ -41,6 +41,7 @@ libreoffice-fresh-fr
 firefox
 git
 htop
+nano
 neofetch
 newsboat
 vim
