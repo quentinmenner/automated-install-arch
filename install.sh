@@ -47,6 +47,8 @@ do
     pacman --noconfirm --needed -S "$pkg_name"
 done < "$packages_list"
 
+systemctl enable lightdm
+
 printf "The installation is complete. The system will reboot in :\n"
 
 seconds=5     # set the number of seconds for the timer
