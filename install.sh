@@ -36,7 +36,7 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-pacman --noconfirmation -Syu
+pacman --noconfirm -Syu
 printf "\n>> System updated\n"
 
 printf "\n>> Packages installation\n"
