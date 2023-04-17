@@ -48,6 +48,11 @@ do
 done < "$packages_list"
 
 systemctl enable lightdm
+# TODO check if need to replace with lightdm.service
+# TODO change lightdm.conf with sed
+# TODO change background lightdm
+# TODO test gsettings (background)
+# TODO mkdir folders (Documents, Images, etc...)
 
 printf "The installation is complete. The system will reboot in :\n"
 
